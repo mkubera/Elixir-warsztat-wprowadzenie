@@ -1,6 +1,16 @@
 
 ![Elixir wallpaper](https://wallup.net/wp-content/uploads/2017/11/23/434614-code-elixir-programming-748x420.jpg)
 
+# Spis tresci
+- [Czym jest Elixir, Erlang, i Phoenix](#czym-jest-elixir,-erlang,-i-phoenix)
+- [Istotne koncepty funkcyjnego programowania uzywane w Elixir](#istotne-koncepty-funkcyjnego-programowania-uzywane-w-elixir)
+- [Typy danych](#typy-danych)
+- [Mix CLI i praca z terminalem](#mix-cli-i-praca-z-terminalem)
+- [Pierwsza aplikacja](#pierwsza-aplikacja)
+- [Architektura MVC](#architektura-mvc)
+- [Aplikacja sieciowa typu CRUD ](#aplikacja-sieciowa-typu-crud)
+- [Uzyteczne linki](#uzyteczne-linki)
+
 # Czym jest Elixir, Erlang, i Phoenix
 
 ## Elixir
@@ -22,7 +32,7 @@ Ten warsztat skupia sie na podstawach Elixir i Phoenix, wobec czego nie bedziemy
 
 
 
-# Istotne koncepty funkcyjnego programowania używane w Elixir
+# Istotne koncepty funkcyjnego programowania uzywane w Elixir
 
 ## Funkcje i moduly 
 
@@ -542,7 +552,7 @@ end
 
 
 
-# Mix CLI i praca z konsola/terminalem
+# Mix CLI i praca z terminalem
 
 ## Podstawowe komendy
 
@@ -637,7 +647,7 @@ end
 12. `mix test`, zeby odpalic testy. Powinnismy zobaczyc `1 doctest, 3 tests, 0 failures`.
 
 
-# Architektura MVC (Model-View-Controller)
+# Architektura MVC
 
 ![MVC](https://image.slidesharecdn.com/modelviewcontrollermvc-140211001124-phpapp01/95/model-view-controller-mvc-6-638.jpg?cb=1392077579)
 
@@ -677,11 +687,11 @@ end
 Notka: `_params` nie jest uzyte w funkcji, wobec czego zamiast `params` uzywamy `_params`. Znak `_` oznacza, ze parametr nie zostanie uzyty w funkcji.  
 Notka: Nieuzyte parametry, ktore nie maja przed soba `_` zostana wypomniane nam przez kompilator, ale jedynie w formie ostrzezenia (warning). Aplikacja skompiluje sie poprawnie.
 
-# Aplikacja sieciowa typu CRUD (Create, Read, Update, Delete)
+# Aplikacja sieciowa typu CRUD 
 
 Wiemy juz jak stworzyc Elixirowa aplikacje (`mix new`), ale Phoenix ma swoj wlasny zestaw mix tasks.
 
-1. Do stworzenia aplikacji uzyj `mix phx.new my_app`. W ten sposob dostaniesz appke o nazwie `MyApp`.
+1. Do stworzenia aplikacji CRUD (Create, Read, Update, Delete) uzyj `mix phx.new my_app`. W ten sposob dostaniesz appke o nazwie `MyApp`.
 1. Potwierdz sciagniecie *dependencies*, i zrob sobie szybka kawe, bo sciaganie deps dla node packages moze troche potrwac 😅. W zaleznosci od Twojej *connection*, naturalnie.
 1. OK. Kolejny krok to wejscie do katalogu appki i stworzenie bazy danych: `ecto.create`. Upewnij sie, ze Twoj Postresql dziala w tle. A jesli komenda nie zadziala, to sprawdz w `/confid/dev.exs`, czy dane do bazy danych sie zgadzaja.
 1. Teraz odpal appke: `mix phx.server`
