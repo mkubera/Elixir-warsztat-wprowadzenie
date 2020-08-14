@@ -11,7 +11,7 @@
 - [Aplikacja sieciowa typu CRUD ](#aplikacja-sieciowa-typu-crud)
 - [Uzyteczne linki](#uzyteczne-linki)
 
-# Czym jest Elixir, Erlang, i Phoenix
+# Czym jest Elixir i Phoenix
 
 ## Elixir
 
