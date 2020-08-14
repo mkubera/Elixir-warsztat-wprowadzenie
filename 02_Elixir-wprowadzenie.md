@@ -2,7 +2,7 @@
 ![Elixir wallpaper](https://wallup.net/wp-content/uploads/2017/11/23/434614-code-elixir-programming-748x420.jpg)
 
 # Spis tresci
-- [Czym jest Elixir, Erlang, i Phoenix](#czym-jest-elixir,-erlang,-i-phoenix)
+- [Czym jest Elixir i Phoenix](#czym-jest-elixir-i-phoenix)
 - [Istotne koncepty funkcyjnego programowania uzywane w Elixir](#istotne-koncepty-funkcyjnego-programowania-uzywane-w-elixir)
 - [Typy danych](#typy-danych)
 - [Mix CLI i praca z terminalem](#mix-cli-i-praca-z-terminalem)
