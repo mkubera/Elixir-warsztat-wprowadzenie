@@ -568,6 +568,8 @@ end
 
 - `iex` -- interaktywny Elixir (REPL).
 
+- `iex --werl` -- interaktywny Elixir (REPL), ale w Erlang Shell (`--werl`).
+
 - `iex -S mix` -- interaktywny Elixir (REPL) w polaczeniu z dzialajacym projektem. Pozwala wywolywac funkcje z modulow projektu. Np. `iex(1)> MyFirstExApp.hello()` (rezultat: `:world`). 
   
 ## Phoenix
